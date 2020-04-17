@@ -11,7 +11,8 @@
     "now-build": "poi build",
     "report": "poi build --bundle-report",
     "serve": "serve dist --single",
-    "test": "tyu"
+    "test": "tyu",
+    "up": "yarn upgrade --latest"
   },
   "author": {
     "name": "yerofey",
@@ -19,16 +20,16 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "object-assign": "^4.1.1",
-    "offline-plugin": "^4.8.0",
-    "promise-polyfill": "^6.0.2"
+    "offline-plugin": "^5.0.7",
+    "promise-polyfill": "^8.1.3"
   },
   "devDependencies": {
-    "poi": "^9.0.0",
+    "poi": "^12.7.5",
     "poi-preset-bundle-report": "^2.0.0",
     "poi-preset-offline": "^9.0.0",
-    "serve": "^6.1.0",
+    "serve": "^11.3.0",
     "tyu": "^1.0.4"
   }
 }
